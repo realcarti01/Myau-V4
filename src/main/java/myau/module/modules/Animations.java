@@ -22,7 +22,7 @@ public class Animations extends Module {
     public final IntProperty swingSpeed = new IntProperty("SwingSpeed", 0, 0, 100);
 
     public Animations() {
-        super("Animations", false);
+        super("Animations", true);
     }
 
     @Override
